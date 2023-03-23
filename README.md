@@ -13,7 +13,7 @@ The app provides a similar user interface and functionality to Amazon Prime Vide
 <img width="185" alt="Find" src="https://user-images.githubusercontent.com/64567701/227070319-2ba362f6-bf54-4d10-9472-f08b607b2a58.png">
 <img width="185" alt="Movie" src="https://user-images.githubusercontent.com/64567701/227070339-67129487-9e32-4cd0-94b4-f7f0d1ad1146.png">
 <img width="185" alt="Profile" src="https://user-images.githubusercontent.com/64567701/227071398-1c1b752c-3776-4e4d-8c7f-713ada560678.png">
-https://user-images.githubusercontent.com/64567701/227081254-458a9e67-e1ba-470c-8680-efe0ab663d6d.mp4
+![Prime_Video_Trailer_mp4](https://user-images.githubusercontent.com/64567701/227081254-458a9e67-e1ba-470c-8680-efe0ab663d6d.mp4)
 
 
 #### Tecnologies
