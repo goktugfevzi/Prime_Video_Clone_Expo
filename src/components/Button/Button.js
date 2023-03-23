@@ -1,11 +1,11 @@
-import {ActivityIndicator, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
+import {ActivityIndicator, Text, TouchableOpacity, View} from 'react-native';
 import styles from './Button.style';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-const Button = ({text, onPress, loading,IconColor="#333333", icon ,theme="primary",size=25}) => {
+export default Button = ({text, onPress, loading,IconColor="#333333", icon ,theme="primary",size=25}) => {
 
-  //primary,secondary,tertiary,fourth,fifth,sixtf
+  //primary,secondary,tertiary,fourth,fifth,sixth
    return (
     <TouchableOpacity
       style={styles[theme].container}
@@ -23,4 +23,4 @@ const Button = ({text, onPress, loading,IconColor="#333333", icon ,theme="primar
   );
 };
 
-export default Button;
+

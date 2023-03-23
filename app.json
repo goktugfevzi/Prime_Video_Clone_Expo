@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "pink"
+      },
+      "package": "com.dramatika.primeVideo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eaeb3f43-4b1a-4613-8c63-5d673d6d009e"
+      }
     }
   }
 }

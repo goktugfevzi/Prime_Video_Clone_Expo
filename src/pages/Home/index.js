@@ -1,26 +1,26 @@
 
 import React from 'react';
 import { ScrollView,View } from 'react-native';
-import MovieList from '../../components/MovieList/MovieList';
-import TopMovieList from '../../components/TopMovieList/TopMovieList';
+import MovieList from '../../components/List/MovieList';
+import TopMovieList from '../../components/List/TopMovieList';
 export default function Home() {
   return (
     <ScrollView>
       <TopMovieList></TopMovieList>
       <View style={{ backgroundColor: "black" }}>
-      <MovieList no={2} title={"İzlemeye Devam Et"}></MovieList>
-      <MovieList no={3} prime={"Prime - "} title={"Önerilen Filmler"}></MovieList>
-      <MovieList no={1} prime={"Prime - "} title={"Aksiyon ve Macera Filmleri"}></MovieList>
-      <MovieList no={5} prime={"Prime - "} title={"Dram Filmleri"}></MovieList>
-      <MovieList no={14} title={"İzlemeye Başlayın: Önerilenler"}></MovieList>
-      <MovieList no={6} prime={"Prime - "} title={"Komedi Dizileri"}></MovieList>
+      <MovieList no={2} title={"Continue Watching"}></MovieList>
+      <MovieList no={3} prime={"Prime - "} title={"Recommended Movies"}></MovieList>
+      <MovieList no={1} prime={"Prime - "} title={"Action & Adventure Movies"}></MovieList>
+      <MovieList no={5} prime={"Prime - "} title={"Drama Movies"}></MovieList>
+      <MovieList no={14} title={"Start Watching: Recommended"}></MovieList>
+      <MovieList no={6} prime={"Prime - "} title={"Comedy Series"}></MovieList>
       <MovieList no={7} title={"Türkiyede ilk 10"}></MovieList>
-      <MovieList no={8} prime={"Prime - "} title={"Korku Filmleri"}></MovieList>
-      <MovieList no={9} prime={"Prime - "} title={"James Bond Koleksiyonu"}></MovieList>
-      <MovieList no={10} prime={"Prime - "} title={"Komedi Filmleri"}></MovieList>
-      <MovieList no={11} prime={"Prime - "} title={"Drama Dizileri"}></MovieList>
-      <MovieList no={12} prime={"Prime - "} title={"Prime Video'ya son eklenen diziler"}></MovieList>
-      <MovieList no={4} prime={"Prime - "} title={"Aksiyon ve Macera TV İçerikleri"}></MovieList>
+      <MovieList no={8} prime={"Prime - "} title={"Horror Movies"}></MovieList>
+      <MovieList no={9} prime={"Prime - "} title={"James Bond Collection"}></MovieList>
+      <MovieList no={10} prime={"Prime - "} title={"Children and Family Movies"}></MovieList>
+      <MovieList no={11} prime={"Prime - "} title={"Documentary Movies"}></MovieList>
+      <MovieList no={12} prime={"Prime - "} title={"Romantic Movies"}></MovieList>
+      <MovieList no={4} prime={"Prime - "} title={"Stand Up Comedy"}></MovieList>
     </View>
     </ScrollView >
   );

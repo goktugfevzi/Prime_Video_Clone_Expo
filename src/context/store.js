@@ -1,16 +1,4 @@
-export default {
-  movies: [{
-    "id": 550,
-  },{
-    "id": 299536,
-  },
-  {
-    "id": 675,
-  },
-  {
-    "id": 597,
-  },
-  {
-    "id": 19995,
-  }],
-};
+import { createStore } from 'redux';
+import rootReducer from './reducers';
+
+const store = createStore(rootReducer);
