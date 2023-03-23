@@ -5,14 +5,21 @@
 This is a mobile application clone of Amazon Prime Video, built using React Native and Expo. 
 The app provides a similar user interface and functionality to Amazon Prime Video, allowing users to browse and movies on their mobile devices.
 
-https://user-images.githubusercontent.com/64567701/226625733-4f49f460-2387-4bca-9c7b-b22609cb5d74.mp4
+#### Some Screenshots
+
+![Prime_Video_Trailer](https://user-images.githubusercontent.com/64567701/227070017-de157d73-337b-4b17-8442-1d21ff53ad8b.gif)
+<img width="187" alt="HomeScreen" src="https://user-images.githubusercontent.com/64567701/227070303-da402458-77f3-4330-90d3-1195cace6ac8.png">
+<img width="188" alt="Download" src="https://user-images.githubusercontent.com/64567701/227070308-d80dc33f-a7f8-49fa-94e3-2fa2c9dad43d.png">
+<img width="185" alt="Find" src="https://user-images.githubusercontent.com/64567701/227070319-2ba362f6-bf54-4d10-9472-f08b607b2a58.png">
+
+<img width="190" alt="Profile" src="https://user-images.githubusercontent.com/64567701/227070328-58295ba2-3cf3-4269-8a67-a150abee7718.png">
+<img width="186" alt="Movie" src="https://user-images.githubusercontent.com/64567701/227070339-67129487-9e32-4cd0-94b4-f7f0d1ad1146.png">
 
 #### Tecnologies
 
 - React Native
 - React Navigation
-- Redux
-- Expo AV
+- Redux Toolkit
 - Expo CLI
 - Axios
 
@@ -20,15 +27,21 @@ https://user-images.githubusercontent.com/64567701/226625733-4f49f460-2387-4bca-
 
 Clone/download this repository into your computer:
 
-`git clone https://github.com/goktugfevzi/Prime_Video_Clone_Expo.git`
+```sh
+git clone https://github.com/goktugfevzi/Prime_Video_Clone_Expo.git
+```
 
 Go into the folder where you cloned/downloaded and run:
 
-`npm install`
+```sh
+npm install
+```
 
 To open the expo server, just run:
 
-`expo start`
+```sh
+expo start
+```
 
 ## License
 Thanks My Mom
