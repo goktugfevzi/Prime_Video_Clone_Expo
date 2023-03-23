@@ -8,6 +8,7 @@ The app provides a similar user interface and functionality to Amazon Prime Vide
 #### Some Screenshots
 
 ![Prime_Video_Trailer](https://user-images.githubusercontent.com/64567701/227070017-de157d73-337b-4b17-8442-1d21ff53ad8b.gif)
+
 <img width="187" alt="HomeScreen" src="https://user-images.githubusercontent.com/64567701/227070303-da402458-77f3-4330-90d3-1195cace6ac8.png">
 <img width="188" alt="Download" src="https://user-images.githubusercontent.com/64567701/227070308-d80dc33f-a7f8-49fa-94e3-2fa2c9dad43d.png">
 <img width="185" alt="Find" src="https://user-images.githubusercontent.com/64567701/227070319-2ba362f6-bf54-4d10-9472-f08b607b2a58.png">
