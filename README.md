@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/64567701/227081254-458a9e67-e1ba-470c-
 
 ## Instalation
 
-create <p><a href="https://developers.themoviedb.org/3">TMDB</a><br>account and generate free api key<br></p> 
+create <p><a href="https://developers.themoviedb.org/3">TMDB</a>account and generate free api key</p> 
 Create .env file and import required domain name and api key
 
 Clone/download this repository into your computer:
