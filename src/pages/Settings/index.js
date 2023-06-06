@@ -1,23 +1,45 @@
-import React from 'react';
-import { ScrollView } from 'react-native';
-import SettingsCards from '../../components/Cards/SettingsCards';
+import React from "react";
+import { FlatList } from "react-native";
+import SettingsCards from "../../components/Cards/SettingsCards";
+
+const settingsData = [
+  { title: "Play and Download", info: "Quality and Wi-Fi Management" },
+  { title: "Notifications", info: "On" },
+  {
+    title: "Auto Play",
+    keys: "dsafsd",
+    info: "Automatically Starts The Next Episode",
+  },
+  { title: "Parental Controls", info: "Check Viewable Content" },
+  { title: "Registered Devices", info: "See All Registered Devices" },
+  { title: "Cookie Preferences", info: "" },
+  { title: "Clear Video Call History", info: "" },
+  {
+    title: "Login as Goktug Fevzi Ozcelik",
+    info: "Sign Out of All Amazon Apps",
+  },
+  {
+    title: "Manage Account",
+    info: "Access Membership Information and Payment Methods",
+  },
+  { title: "Hidden Videos", info: "" },
+  { title: "Language", info: "English" },
+  { title: "Help and Feedback", info: "" },
+  { title: "About and Legal Considerations", info: "" },
+];
 
 export default Settings = () => {
+  const renderSettingsCard = ({ item }) => {
     return (
-        <ScrollView>
-            <SettingsCards title={"Play and Download"} Info={"Quality and Wi-Fi Management"}></SettingsCards>
-            <SettingsCards title={"Notifications"} Info={"On"}></SettingsCards>
-            <SettingsCards title={"Auto Play"} keys={"dsafsd"} Info={"Automatically Starts The Next Episode"}></SettingsCards>
-            <SettingsCards title={"Parental Controls"} Info={"Check Viewable Content"}></SettingsCards>
-            <SettingsCards title={"Registered Devices"} Info={"See All Registered Devices"}></SettingsCards>
-            <SettingsCards title={"Cookie Preferences"} Info={""}></SettingsCards>
-            <SettingsCards title={"Clear Video Call History"} Info={""}></SettingsCards>
-            <SettingsCards title={"Login as Goktug Fevzi Ozcelik"} Info={"Sign Out of All Amazon Apps"}></SettingsCards>
-            <SettingsCards title={"Manage Account"} Info={"Access Membership Information and Payment Methods"}></SettingsCards>
-            <SettingsCards title={"Hidden Videos"} Info={""}></SettingsCards>
-            <SettingsCards title={"Language"} Info={"English"}></SettingsCards>
-            <SettingsCards title={"Help and Feedback"} Info={""}></SettingsCards>
-            <SettingsCards title={"About and Legal Considerations"} Info={""}></SettingsCards>
-        </ScrollView>
+      <SettingsCards title={item.title} info={item.info} keys={item.keys} />
     );
+  };
+
+  return (
+    <FlatList
+      data={settingsData}
+      renderItem={renderSettingsCard}
+      keyExtractor={(index) => index.toString()}
+    />
+  );
 };

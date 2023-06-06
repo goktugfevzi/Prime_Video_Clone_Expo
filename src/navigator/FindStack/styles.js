@@ -21,6 +21,11 @@ export default StyleSheet.create({
     fontWeight: '900',
     color: "#fff",
   },
+  headerLeft_text: {
+    color: "white",
+    fontSize: 20,
+    fontWeight: "bold",
+  },
   prime_text: {
     fontSize: 20,
     marginBottom:15,

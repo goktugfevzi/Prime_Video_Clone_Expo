@@ -10,7 +10,7 @@ import {
 import styles from "./DownloadedMovieCards.style";
 import useFetch from '../../../hooks/useFetch';
 import { BottomSheet } from 'react-native-btr';
-import Button from '../../Button';
+import Button from '../../Button/Button';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {API_KEY,MOVIE_DOMAIN,POSTER_DOMAIN} from "@env";
 
@@ -28,9 +28,6 @@ const DownloadedMovieCards = ({ movieId, handlePress, onDelete }) => {
   const { loading, data, error } = useFetch(api);
   if (loading) {
     return <ActivityIndicator size="large" color="#888888" />
-  }
-  if (error) {
-    return console.log(error);
   }
 
   return (

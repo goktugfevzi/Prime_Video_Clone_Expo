@@ -1,32 +1,28 @@
-import React from 'react';
-import {
-  View,
-  Text,
-  TouchableOpacity,
-} from 'react-native';
+import React from "react";
+import { View, Text, TouchableOpacity } from "react-native";
 import styles from "./SettingsCards.style";
-import { Switch } from 'react-native-paper'
-export default SettingsCards = ({ title, Info, keys }) => {
-
+import { Switch } from "react-native-paper";
+export default SettingsCards = ({ title, info, keys }) => {
   const [isSwitchOn, setIsSwitchOn] = React.useState(false);
   const onToggleSwitch = () => setIsSwitchOn(!isSwitchOn);
 
   return (
-    <View style={{ backgroundColor: 'black' }}>
-      <TouchableOpacity 
-      style={{ marginVertical: 10, ...styles.container }}
-       onPress={()=>{keys ? onToggleSwitch() : console.log("first")}}>
+    <View style={{ backgroundColor: "black" }}>
+      <TouchableOpacity
+        style={{ marginVertical: 10, ...styles.container }}
+        onPress={() => {
+          keys ? onToggleSwitch() : console.log("first");
+        }}
+      >
         <View style={styles.text_container}>
           <Text style={styles.prime_title}>{title}</Text>
-          <Text style={styles.minutes_text}>{Info}</Text>
-
+          <Text style={styles.minutes_text}>{info}</Text>
         </View>
-        {keys ? <Switch value={isSwitchOn}  onValueChange={onToggleSwitch} /> : null}
+        {keys ? (
+          <Switch value={isSwitchOn} onValueChange={onToggleSwitch} />
+        ) : null}
       </TouchableOpacity>
-      <View style={{ height: 1, width: "100%", backgroundColor: "#4D4D4D" }}></View></View>
+      <View style={styles.hr}></View>
+    </View>
   );
 };
-
-
-
-

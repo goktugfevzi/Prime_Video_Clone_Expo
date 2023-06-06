@@ -3,12 +3,8 @@ import Router from "./src/Router";
 
 import FlashMessage from "react-native-flash-message";
 //REDUX
-import { configureStore } from '@reduxjs/toolkit';
-import { Provider } from 'react-redux';
-import rootReducer from './src/context/reducers'
-const store = configureStore({
-  reducer: rootReducer
-})
+import { Provider } from "react-redux";
+import store from "./src/context/store";
 //REDUX
 
 export default function App() {

@@ -5,6 +5,7 @@ import WatchingPage from '../../pages/Watching';
 import MoviePage from '../../pages/Movie';
 import ProfileButton from '../../components/ProfileButton';
 import ProfileStack from '../ProfileStack';
+import styles from "./styles";
 
 const Stack = createNativeStackNavigator();
 
@@ -22,7 +23,7 @@ export default DownloadStack = () => {
       }}>
       <Stack.Screen name="Download" component={DownloadPage}
         options={{
-          headerLeft: () => <Text style={{ color: "white", fontSize: 20, fontWeight: 'bold' }}>Downloads</Text>,
+          headerLeft: () => <Text style={styles.headerLeft_text}>Downloads</Text>,
           headerTitle: () =>
             <Text></Text>,
           headerRight: () => (

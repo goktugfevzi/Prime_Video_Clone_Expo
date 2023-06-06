@@ -21,6 +21,10 @@ export default StyleSheet.create({
     fontWeight: '900',
     color: "#fff",
   },
+  renderSeparator_container:{
+    backgroundColor: "#333333",
+    height: 0.5,
+  },
   prime_text: {
     fontSize: 20,
     marginBottom:15,
