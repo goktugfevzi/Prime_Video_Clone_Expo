@@ -30,7 +30,9 @@ https://user-images.githubusercontent.com/64567701/227081254-458a9e67-e1ba-470c-
 ## Instalation
 
 Create <a href="https://developers.themoviedb.org/3">TMDB</a> account and generate free api key<br>
-Create .env file and import required domain name and api key
+reate .env file and import required domain name and api key
+
+C<img width="262" alt="Ekran görüntüsü 2023-06-07 025925" src="https://github.com/goktugfevzi/Prime_Video_Clone_Expo/assets/64567701/8b125db3-b72f-4632-84b0-6144ee8d5edf">
 
 Clone/download this repository into your computer:
 
